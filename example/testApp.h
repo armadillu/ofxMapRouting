@@ -36,7 +36,6 @@ class testApp : public ofBaseApp{
 			}
 		}
 	
-
 		void setUIParams(){
 			
 			defaultSimpleGuiConfig.gridSize.x = 351;
