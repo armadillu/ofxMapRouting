@@ -5,8 +5,8 @@
 #include "ofxTileMap.h"
 #include "ofxTimeMeasurements.h"
 #include "ofxSimpleGuiToo.h"
-#include "ofxHistoryPlot.h"
-#include "ofxMemoryUsage.h"
+//#include "ofxHistoryPlot.h"
+//#include "ofxMemoryUsage.h"
 
 class testApp : public ofBaseApp{
 
@@ -64,7 +64,7 @@ class testApp : public ofBaseApp{
 	
 		ofxSimpleGuiToo gui;
 	
-		ofxHistoryPlot * plot;
-		ofxMemoryUsage mem;
+		//ofxHistoryPlot * plot;
+		//ofxMemoryUsage mem;
 
 };

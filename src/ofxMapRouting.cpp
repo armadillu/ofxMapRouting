@@ -42,9 +42,10 @@ inline Node* ofxMapRouting::getPreallocatedNodeAt(int x, int y){ //only to be us
 ofxMapRouting::ofxMapRouting( ofxTileMap * map_, bool preAllocateAllNodes_ ){	
 	gameMap = map_;
 	connect8 = false;
+	useSqrt = false;
 	perStepExtraCost = 0.0;
 	roadCostGain = 1.0;
-	eucledianDistWeight = 0.1;
+	eucledianDistWeight = 0.5;
 	preAllocateNodes = preAllocateAllNodes_;
 
 	if (preAllocateNodes){

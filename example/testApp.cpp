@@ -15,14 +15,14 @@ void testApp::setup(){
 	origin.x = map->getWidth()/2;
 	origin.y = map->getHeight()/2 - 5;
 	
-	plot = new ofxHistoryPlot( NULL, "mem", ofGetWidth()*15, false); //NULL cos we don't want it to auto-update. confirmed by "true"
+	//plot = new ofxHistoryPlot( NULL, "mem", ofGetWidth()*15, false); //NULL cos we don't want it to auto-update. confirmed by "true"
 	//plot->setRange(0, ofGetHeight());
-	plot->setColor( ofColor(255,0,0) );
-	plot->setShowNumericalInfo(true);
+	//plot->setColor( ofColor(255,0,0) );
+	//plot->setShowNumericalInfo(true);
 	//plot->setRespectBorders(true);
-	plot->setLineWidth(1);	
+	//plot->setLineWidth(1);	
 
-	mem.setup();
+	//mem.setup();
 
 }
 
@@ -38,13 +38,13 @@ void testApp::update(){
 	routing->calcRoute( origin.x, origin.y, target.x, target.y, res, maxIterations);
 	TIME_SAMPLE_STOP("calcRoute");
 	
-	mem.update();
+	//mem.update();
 	//if ( ofGetFrameNum()% == 1 ){
-	float m = mem.getProcessMemory() /1024.;
-	if (ofGetFrameNum() == 120){
-		plot->setLowerRange(m);
-	}
-	plot->update( m );
+	//float m = mem.getProcessMemory() /1024.;
+//	if (ofGetFrameNum() == 120){
+//		plot->setLowerRange(m);
+//	}
+//	plot->update( m );
 
 }
 
