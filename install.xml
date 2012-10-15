@@ -8,7 +8,7 @@
     <download_url>https://github.com/armadillu/ofxMapRouting</download_url>
    
     <description><![CDATA[
-          Simple OpenFrameworks add-on that handles Zooming and Panning on iDevices, allowing to explore 2D space.    ]]></description>
+          OF Addon to handle map routing, through a moded a*. wip! trying to keep it fast and low-memo at expenses of path optimallity Requires ofxSimpleGuiToo, ofxXmlSettings, ofxMSAInteractiveObject and ofxTimeMeasurements to run the example    ]]></description>
     
 	<add>
 		
