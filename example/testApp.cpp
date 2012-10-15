@@ -30,7 +30,7 @@ void testApp::setup(){
 void testApp::update(){
 	
 //	target.x = ofRandom(0, map->getWidth());
-//	target.y = ofRandom(0, map->getHeight());;
+//	target.y = ofRandom(0, map->getHeight());
 
 	routing->set8Connected(connect8);
 
