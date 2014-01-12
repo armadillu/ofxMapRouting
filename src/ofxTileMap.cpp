@@ -13,7 +13,7 @@
 
 ofxTileMap::ofxTileMap(){
 	width = height = 0;
-	map = nil;
+	map = NULL;
 }
 
 ofxTileMap::ofxTileMap( int width_, int height_ ){
